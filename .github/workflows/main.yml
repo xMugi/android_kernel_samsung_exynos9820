@@ -11,7 +11,7 @@ jobs:
   build:
     strategy:
       matrix:
-        device: [d2x, d2s, d2xks, d1, d1xks, beyond0lte, beyond0lteks, beyond1lte, beyond1lteks, beyond2lte, beyond2lteks, beyondx, beyondxks]
+        device: [d2s]
     runs-on: ubuntu-24.04
 
     steps:
